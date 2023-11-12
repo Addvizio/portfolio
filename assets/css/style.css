@@ -35,12 +35,16 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 14%, 98%);
   --black: hsl(0, 0%, 0%);
+  --jungle-green: hsla(168, 58%, 42%, 1);
+  --myrtle-green: hsla(180, 53%, 30%, 1);
+  --blue-sapphire: hsla(193, 55%, 28%, 1);
 
   /**
    * gradient color
    */
 
   --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
+  --gradient-addvizio: linear-gradient(to left top, var(--blue-sapphire), var(--jungle-green));
 
   /**
    * typography
@@ -186,7 +190,8 @@ body {
 }
 
 .btn-primary {
-  background-image: var(--gradient);
+  /* background-image: var(--gradient); */
+  background-image: var(--gradient-addvizio);
   background-size: 1000%;
 }
 
@@ -325,7 +330,8 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--red-crayola); }
+/* .navbar-link:is(:hover, :focus) { color: var(--red-crayola); } */
+.navbar-link:is(:hover, :focus) { color: var(--myrtle-green); }
 
 .header .btn { margin-block-start: 10px; }
 
@@ -472,7 +478,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--white-1);
-  color: var(--red-crayola);
+  /* color: var(--red-crayola); */
+  color: var(--myrtle-green);
   font-size: 32px;
   padding: 16px;
   border-radius: 50%;
@@ -501,7 +508,7 @@ body {
 }
 
 .about-item ion-icon {
-  color: var(--red-crayola);
+  color: var(--myrtle-green);
   flex-shrink: 0;
   margin-block-start: 2px;
 }
@@ -532,7 +539,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: var(--gradient);
+  background-image: var(--gradient-addvizio);
   opacity: 0.95;
   z-index: -1;
 }
@@ -571,7 +578,8 @@ body {
 .blog-card .card-content { padding: 15px; }
 
 .blog-card .time {
-  color: var(--red-crayola);
+  /* color: var(--red-crayola); */
+  color: var(--myrtle-green);
   font-size: var(--fs-6);
   line-height: 1;
   margin-block-end: 10px;
@@ -579,7 +587,8 @@ body {
 
 .blog-card .card-title { transition: var(--transition-1); }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--red-crayola); }
+/* .blog-card .card-title:is(:hover, :focus) { color: var(--red-crayola); } */
+.blog-card .card-title:is(:hover, :focus) { color: var(--myrtle-green); }
 
 
 
@@ -614,7 +623,8 @@ body {
 
 .input-field::-webkit-inner-spin-button { display: none; }
 
-.input-field:focus { outline-color: var(--red-crayola); }
+/* .input-field:focus { outline-color: var(--red-crayola); } */
+.input-field:focus { outline-color: var(--myrtle-green); }
 
 .input-field::placeholder { transition: var(--transition-1); }
 
@@ -631,12 +641,14 @@ textarea.input-field {
 .checkbox {
   width: max-content;
   margin-block-start: 5px;
-  accent-color: var(--red-crayola);
+  /* accent-color: var(--red-crayola); */
+  accent-color: var(--myrtle-green);
 }
 
 .label-link {
   display: inline-block;
-  color: var(--red-crayola);
+  /* color: var(--red-crayola); */
+  color: var(--myrtle-green);
 }
 
 .label-link:is(:hover, :focus) { text-decoration: underline; }
@@ -671,7 +683,7 @@ textarea.input-field {
 
 .contact-card .card-icon {
   background-color: var(--cultured-2);
-  color: var(--red-crayola);
+  color: var(--myrtle-green);
   font-size: 25px;
   padding: 13px;
   border-radius: 50%;
@@ -679,7 +691,7 @@ textarea.input-field {
 }
 
 .contact-card:is(:hover, :focus) .card-icon {
-  background-color: var(--red-crayola);
+  background-color: var(--myrtle-green);
   color: var(--white-1);
 }
 
@@ -690,7 +702,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.contact-card .card-link:is(:hover, :focus) { color: var(--red-crayola); }
+.contact-card .card-link:is(:hover, :focus) { color: var(--myrtle-green); }
 
 
 
@@ -711,7 +723,8 @@ textarea.input-field {
 }
 
 .copyright-link {
-  color: var(--red-crayola);
+  /* color: var(--red-crayola); */
+  color: var(--myrtle-green);
   font-weight: var(--fw-500);
   display: inline-block;
 }
@@ -993,7 +1006,8 @@ textarea.input-field {
     left: 0;
     width: 2px;
     height: 100%;
-    background-color: var(--red-crayola);
+    /* background-color: var(--red-crayola); */
+    background-color: var(--myrtle-green);
   }
 
   .hero-text,
